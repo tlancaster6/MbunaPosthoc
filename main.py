@@ -1,5 +1,5 @@
-from yolov5.detect import run as run_detection
-import cv2
+# from yolov5.detect import run as run_detection
+from plotting import plotters
 
 pipe_weights = 'justpipe.pt'
 fish_weights = 'justfish.pt'
